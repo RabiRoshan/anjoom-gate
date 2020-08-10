@@ -1,24 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Button, Input } from "antd";
+import axios from "axios";
+import "./App.css";
+import "antd/dist/antd.css";
 
 function App() {
+  const [ip, setIp] = useState("192.168.1.26");
+
+  const sendRequest = (data) => {
+    axios
+      .post(`http://${ip}:8080/${data}`)
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((e) => console.log(e));
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Moopan Inc.</h1>
+
+      <div className="ipInputContainer">
+        <Input
+          placeholder="Local IP (default: 192.168.1.26)"
+          onChange={(event) => {
+            setIp(event.target.value);
+          }}
+        />
+      </div>
+
+      <div className="button-container">
+        <Button type="primary" onClick={() => sendRequest("open")}>
+          Open
+        </Button>
+        <div className="hSpace10"></div>
+        <Button type="primary" onClick={() => sendRequest("close")}>
+          Close
+        </Button>
+      </div>
     </div>
   );
 }

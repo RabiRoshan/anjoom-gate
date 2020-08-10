@@ -1,5 +1,19 @@
+.hSpace10 {
+  width: 10vw;
+  display: inline-block;
+}
+
+.ipInputContainer {
+  width: 80vw;
+  margin: auto;
+}
+
 .App {
   text-align: center;
+}
+
+.App .button-container {
+  margin-top: 45vh;
 }
 
 .App-logo {
