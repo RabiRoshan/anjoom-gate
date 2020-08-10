@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3af31b840530dd48b61b09246f6ff4f9",
+    "revision": "357e020c1bf2d71f7e5112de7050ca55",
     "url": "/anjoom-gate/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anjoom-gate/static/css/2.ed7b5974.chunk.css"
   },
   {
-    "revision": "32f9a148a98b0d1cab19",
+    "revision": "a819411740fcf0a4ade7",
     "url": "/anjoom-gate/static/css/main.f835bafb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anjoom-gate/static/js/2.64d96d16.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32f9a148a98b0d1cab19",
-    "url": "/anjoom-gate/static/js/main.5f9cbc0b.chunk.js"
+    "revision": "a819411740fcf0a4ade7",
+    "url": "/anjoom-gate/static/js/main.c32f46c5.chunk.js"
   },
   {
     "revision": "1f1c715759cfd42efaaf",

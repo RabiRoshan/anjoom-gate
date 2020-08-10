@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anjoom-gate/precache-manifest.36b89b1b00ccd1d3cf112e636758fa0d.js"
+  "/anjoom-gate/precache-manifest.1ae56319e185a3f7657335692c6ea94d.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/anjoom-gate/static/css/main.f835bafb.chunk.css",
-    "main.js": "/anjoom-gate/static/js/main.5f9cbc0b.chunk.js",
-    "main.js.map": "/anjoom-gate/static/js/main.5f9cbc0b.chunk.js.map",
+    "main.js": "/anjoom-gate/static/js/main.c32f46c5.chunk.js",
+    "main.js.map": "/anjoom-gate/static/js/main.c32f46c5.chunk.js.map",
     "runtime-main.js": "/anjoom-gate/static/js/runtime-main.7aae1a56.js",
     "runtime-main.js.map": "/anjoom-gate/static/js/runtime-main.7aae1a56.js.map",
     "static/css/2.ed7b5974.chunk.css": "/anjoom-gate/static/css/2.ed7b5974.chunk.css",
     "static/js/2.64d96d16.chunk.js": "/anjoom-gate/static/js/2.64d96d16.chunk.js",
     "static/js/2.64d96d16.chunk.js.map": "/anjoom-gate/static/js/2.64d96d16.chunk.js.map",
     "index.html": "/anjoom-gate/index.html",
-    "precache-manifest.36b89b1b00ccd1d3cf112e636758fa0d.js": "/anjoom-gate/precache-manifest.36b89b1b00ccd1d3cf112e636758fa0d.js",
+    "precache-manifest.1ae56319e185a3f7657335692c6ea94d.js": "/anjoom-gate/precache-manifest.1ae56319e185a3f7657335692c6ea94d.js",
     "service-worker.js": "/anjoom-gate/service-worker.js",
     "static/css/2.ed7b5974.chunk.css.map": "/anjoom-gate/static/css/2.ed7b5974.chunk.css.map",
     "static/css/main.f835bafb.chunk.css.map": "/anjoom-gate/static/css/main.f835bafb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.ed7b5974.chunk.css",
     "static/js/2.64d96d16.chunk.js",
     "static/css/main.f835bafb.chunk.css",
-    "static/js/main.5f9cbc0b.chunk.js"
+    "static/js/main.c32f46c5.chunk.js"
   ]
 }
