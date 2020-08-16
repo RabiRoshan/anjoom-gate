@@ -1,3 +1,11 @@
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .hSpace10 {
   width: 10vw;
   display: inline-block;
@@ -5,16 +13,15 @@
 
 .ipInputContainer {
   width: 80vw;
-  margin: auto;
 }
 
 .App {
   text-align: center;
 }
 
-.App .button-container {
+/* .App .button-container {
   margin-top: 45vh;
-}
+} */
 
 .App-logo {
   height: 40vmin;
